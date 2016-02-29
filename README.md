@@ -48,14 +48,14 @@ apeStatus.saveJSONInfo();
 ```javascript
 var pool = mysql.createPool({...});
 
-apeStatus.mysql("NAME YOUR CONNECTION", pool);
+apeStatus.mysql("NAME YOUR CONNECTION", pool, "QUERY TO EXECUTE");  // query parameter is optional
 ```
 
 #### Mongoose connection 
 ```javascript
 mongoose.connect(...);
 
-apeStatus.mongoose(mongoose.connection); // The collection name will be used as the name for the status page
+apeStatus.mongoose(mongoose.connection, "NAME OF A COLLECTION TO CHECK"); // The db name will be used as the name for the status page, the colelction name is optional
 ```
 
 #### Webservice
