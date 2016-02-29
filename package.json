@@ -1,0 +1,26 @@
+{
+  "name": "ape-status",
+  "version": "1.0.0",
+  "description": "A simple monitoring helper",
+  "main": "ape-status.js",
+  "dependencies": {
+    "bluebird": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vonAffenfels/ape-status.git"
+  },
+  "keywords": [
+    "monitoring"
+  ],
+  "author": "Dominik Kienzler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vonAffenfels/ape-status/issues"
+  },
+  "homepage": "https://github.com/vonAffenfels/ape-status#readme"
+}
