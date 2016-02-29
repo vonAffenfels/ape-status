@@ -1,7 +1,7 @@
 {
     "name": "ape-status",
     "version": "0.0.1",
-    "description": "",
+    "description": "Simple monitoring helper",
     "main": "ape-status.js",
     "author": "Dominik Kienzler (kienzler@vonaffenfels.de)",
     "license": "MIT"
