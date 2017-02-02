@@ -1,6 +1,6 @@
 {
   "name": "ape-status",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "A simple monitoring helper",
   "main": "ape-status.js",
   "dependencies": {
