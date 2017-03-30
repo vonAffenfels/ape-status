@@ -58,6 +58,11 @@ mongoose.connect(...);
 apeStatus.mongoose(mongoose.connection, "NAME OF A COLLECTION TO CHECK"); // The db name will be used as the name for the status page, the colelction name is optional
 ```
 
+#### Redis connection 
+```javascript
+apeStatus.redis(redis.client, "Name for this redis");
+```
+
 #### Webservice
 ```javascript
 apeStatus.webservice("NAME YOUR WEBSERVICE", "URL TO CHECK");

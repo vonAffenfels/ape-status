@@ -8,6 +8,7 @@ module.exports = {
     express: require("./lib/express.js"),
     webservice: require("./lib/webservice.js"),
     mysql: require("./lib/mysql.js"),
+    redis: require("./lib/redis.js"),
     custom: require("./lib/custom.js"),
 
     /**
