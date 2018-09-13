@@ -6,6 +6,7 @@ var path = require("path");
 module.exports = {
     mongoose: require("./lib/mongoose.js"),
     express: require("./lib/express.js"),
+    koa: require("./lib/koa.js"),
     webservice: require("./lib/webservice.js"),
     mysql: require("./lib/mysql.js"),
     redis: require("./lib/redis.js"),
